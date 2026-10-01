@@ -1,0 +1,176 @@
+﻿  Cpp-todo-list.cpp
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(93,35): error C2371: "it": Neudefinition; unterschiedliche Basistypen
+      C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(91,35):
+      Siehe Deklaration von "it"
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(95,15): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,41): error C2088: Der integrierte Operator „!=“ kann nicht auf einen Operanden vom Typ „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“ angewendet werden
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,41): error C2088:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,41): error C2088:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,41): error C2088:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,41): error C2088:         ]
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,63): error C2088: Der integrierte Operator „++“ kann nicht auf einen Operanden vom Typ „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“ angewendet werden
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,63): error C2088:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,63): error C2088:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,63): error C2088:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(110,63): error C2088:         ]
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(112,41): error C2039: "isCompleted" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(112,41): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(112,41): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(112,41): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(112,41): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,40): error C2039: "getIdlist" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,40): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,40): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,40): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,40): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,77): error C2039: "getDescription" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,77): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,77): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,77): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(114,77): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446: „!=“: Keine Konvertierung von „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“ zu „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446:             _Ty=TodoItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446:         ]
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446:         and
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,45): error C2446:         ]
+      C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,61):
+      Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,67): error C2088: Der integrierte Operator „++“ kann nicht auf einen Operanden vom Typ „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“ angewendet werden
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,67): error C2088:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,67): error C2088:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,67): error C2088:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(132,67): error C2088:         ]
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(134,45): error C2039: "isCompleted" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(134,45): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(134,45): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(134,45): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(134,45): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,51): error C2039: "getId" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,51): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,51): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,51): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,51): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,75): error C2039: "getDescription" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,75): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,75): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,75): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(136,75): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446: „!=“: Keine Konvertierung von „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“ zu „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446:             _Ty=TodoItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446:         ]
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446:         and
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,53): error C2446:         ]
+      C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,69):
+      Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,75): error C2088: Der integrierte Operator „++“ kann nicht auf einen Operanden vom Typ „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“ angewendet werden
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,75): error C2088:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,75): error C2088:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,75): error C2088:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(307,75): error C2088:         ]
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(308,45): error C2039: "getId" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(308,45): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(308,45): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(308,45): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(308,45): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(309,33): error C2039: "setCompleted" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(309,33): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(309,33): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(309,33): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(309,33): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446: „!=“: Keine Konvertierung von „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“ zu „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446:             _Ty=TodoItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446:         ]
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446:         and
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,53): error C2446:         ]
+      C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,69):
+      Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,75): error C2088: Der integrierte Operator „++“ kann nicht auf einen Operanden vom Typ „std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>“ angewendet werden
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,75): error C2088:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,75): error C2088:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,75): error C2088:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(350,75): error C2088:         ]
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(352,45): error C2039: "getId" ist kein Member von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>".
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(352,45): error C2039:         with
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(352,45): error C2039:         [
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(352,45): error C2039:             _Ty=ListItem
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(352,45): error C2039:         ]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(224,7):
+      Siehe Deklaration von "std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>"
+          with
+          [
+              _Ty=ListItem
+          ]
+  
+C:\Users\zenke\source\repos\Cpp-todo-list\Cpp-todo-list\Cpp-todo-list.cpp(83,1): error C1075: {: kein übereinstimmendes Token gefunden.
