@@ -171,7 +171,7 @@ class ListItem                              // Class which contains everything f
 
 std::string readTextInput()                                     // This function is going to be reused for every single time, we need to read a text input from the user.
 {
-    std::string id_str = "";
+
     char character;
     bool canceled = false;
     std::string input_description = "";
@@ -322,10 +322,9 @@ std::string readIdInput()                           // Function for reading an I
         {
             id_str += character;
             std::cout << character;
-        }
-        (void)_getch();
-        return id_str;
+        }      
     }
+    return id_str;
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
@@ -344,7 +343,7 @@ int main()
     std::string input_description;
     std::string id_str;
     int input_id;
-    std::string version = "v3.1.0";
+    std::string version = "v3.1.1";
 
     std::list<ListItem>listItems;
     std::list<ListItem>::iterator itList;
@@ -654,6 +653,9 @@ int main()
 
             else if (input_option == 'c')   // Completing a todo
             {
+                std::cout << "Missclicked? Just tap [Esc] any time or [Enter], when description line is empty." << std::endl;
+                std::cout << "Enter id to set 'done': ";
+                
                 id_str = readIdInput();
 
                 std::cout << std::endl;
