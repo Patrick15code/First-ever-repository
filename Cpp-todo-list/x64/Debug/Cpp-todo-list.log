@@ -1,7 +1,6 @@
 ﻿  Cpp-todo-list.cpp
-C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(460,18): warning C4101: "character": Unreferenzierte lokale Variable
-C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(495,18): warning C4101: "character": Unreferenzierte lokale Variable
-C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(529,18): warning C4101: "character": Unreferenzierte lokale Variable
-C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(688,22): warning C4101: "character": Unreferenzierte lokale Variable
-C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(329,1): warning C4715: "readIdInput": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(459,18): warning C4101: "character": Unreferenzierte lokale Variable
+C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(494,18): warning C4101: "character": Unreferenzierte lokale Variable
+C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(528,18): warning C4101: "character": Unreferenzierte lokale Variable
+C:\Users\zenke\source\repos\First-ever-repository\Cpp-todo-list\Cpp-todo-list.cpp(690,22): warning C4101: "character": Unreferenzierte lokale Variable
   Cpp-todo-list.vcxproj -> C:\Users\zenke\source\repos\First-ever-repository\x64\Debug\Cpp-todo-list.exe
